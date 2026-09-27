@@ -1,0 +1,32 @@
+[
+  {
+    "appointmentNumber": "APT-10492",
+    "userId": "use_1790431860058_scuxg",
+    "hospitalId": "hos_1790431860062_gdpv6",
+    "doctorId": "use_1790431860060_09xmz",
+    "department": "Internal Medicine",
+    "appointmentDate": "2026-09-30",
+    "appointmentTime": "10:30 AM",
+    "symptoms": "Follow-up consultation for seasonal asthma management and allergy control.",
+    "status": "CONFIRMED",
+    "hospitalNotes": "Confirmed by reception. Please arrive 15 minutes before the time slot.",
+    "_id": "app_1790431860065_dl19h",
+    "createdAt": "2026-09-26T14:11:00.065Z",
+    "updatedAt": "2026-09-26T14:11:00.065Z"
+  },
+  {
+    "appointmentNumber": "APT-56506",
+    "userId": "use_1790431860058_scuxg",
+    "hospitalId": "hos_1790431860062_tl3rr",
+    "doctorId": "doc_1790431860062_tibh2",
+    "department": "Dermatology",
+    "appointmentDate": "2026-10-02",
+    "appointmentTime": "10:00 AM",
+    "symptoms": "",
+    "status": "CONFIRMED",
+    "hospitalNotes": "Confirmed appointment with Dr. Aisha Patel, MBBS, MD at DEMO — St. Mary Comprehensive Medical Pavilion. Please arrive 15 minutes prior.",
+    "_id": "app_1790471616110_k56q9",
+    "createdAt": "2026-09-27T01:13:36.110Z",
+    "updatedAt": "2026-09-27T01:13:36.110Z"
+  }
+]

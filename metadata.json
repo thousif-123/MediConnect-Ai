@@ -1,0 +1,6 @@
+{
+  "name": "MediConnect AI",
+  "description": "Healthcare marketplace and triage platform connecting patients, pharmacists, doctors, and hospitals with safe AI health guidance.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

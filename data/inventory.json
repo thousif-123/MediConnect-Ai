@@ -1,0 +1,92 @@
+[
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860062_qgqab",
+    "quantity": 65,
+    "price": 18.5,
+    "availability": true,
+    "_id": "inv_1790431860063_9ee9y",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860063_kf0z0",
+    "quantity": 40,
+    "price": 24,
+    "availability": true,
+    "_id": "inv_1790431860064_xulgj",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860063_tzo2z",
+    "quantity": 120,
+    "price": 6.99,
+    "availability": true,
+    "_id": "inv_1790431860064_dg4w2",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860063_hn3yl",
+    "quantity": 85,
+    "price": 11.5,
+    "availability": true,
+    "_id": "inv_1790431860064_9u417",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860063_8e4t5",
+    "quantity": 50,
+    "price": 14.25,
+    "availability": true,
+    "_id": "inv_1790431860064_f5cq8",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_6frai",
+    "medicineId": "med_1790431860063_uql9u",
+    "quantity": 30,
+    "price": 32,
+    "availability": true,
+    "_id": "inv_1790431860064_fgs54",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_doy2q",
+    "medicineId": "med_1790431860062_qgqab",
+    "quantity": 20,
+    "price": 19.99,
+    "availability": true,
+    "_id": "inv_1790431860064_c9ajb",
+    "createdAt": "2026-09-26T14:11:00.064Z",
+    "updatedAt": "2026-09-26T14:11:00.064Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_doy2q",
+    "medicineId": "med_1790431860063_tzo2z",
+    "quantity": 200,
+    "price": 5.99,
+    "availability": true,
+    "_id": "inv_1790431860065_sqwsc",
+    "createdAt": "2026-09-26T14:11:00.065Z",
+    "updatedAt": "2026-09-26T14:11:00.065Z"
+  },
+  {
+    "pharmacyId": "pha_1790431860060_doy2q",
+    "medicineId": "med_1790431860063_uql9u",
+    "quantity": 15,
+    "price": 34.5,
+    "availability": true,
+    "_id": "inv_1790431860065_lw7c5",
+    "createdAt": "2026-09-26T14:11:00.065Z",
+    "updatedAt": "2026-09-26T14:11:00.065Z"
+  }
+]

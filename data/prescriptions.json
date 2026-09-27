@@ -1,0 +1,16 @@
+[
+  {
+    "userId": "use_1790431860058_scuxg",
+    "doctorName": "Dr. Harrison Wells, MD",
+    "prescriptionDate": "2026-09-10",
+    "fileReference": "demo_prescription_wells.pdf",
+    "originalFilename": "Dr_Wells_Amoxicillin_Rx.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 148520,
+    "status": "ACTIVE",
+    "notes": "Prescribed for acute bacterial pharyngitis, 500mg tid x 10 days.",
+    "_id": "pre_1790431860065_yfi2j",
+    "createdAt": "2026-09-26T14:11:00.065Z",
+    "updatedAt": "2026-09-26T14:11:00.065Z"
+  }
+]

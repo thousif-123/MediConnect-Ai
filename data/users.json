@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Sarah Connor (Patient)",
+    "email": "patient@demo.com",
+    "phone": "+1 (555) 234-5678",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "USER",
+    "dateOfBirth": "1992-05-14",
+    "address": "42 Market Street, Downtown Health District",
+    "location": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "city": "San Francisco"
+    },
+    "allergies": [
+      "Penicillin",
+      "Peanuts"
+    ],
+    "currentMedications": [
+      "Loratadine 10mg daily",
+      "Multivitamin"
+    ],
+    "emergencyContact": {
+      "name": "John Connor",
+      "phone": "+1 (555) 987-6543",
+      "relationship": "Brother"
+    },
+    "status": "ACTIVE",
+    "_id": "use_1790431860058_scuxg",
+    "createdAt": "2026-09-26T14:11:00.058Z",
+    "updatedAt": "2026-09-26T14:11:00.058Z"
+  },
+  {
+    "name": "Dr. Marcus Vance, PharmD",
+    "email": "pharmacist@demo.com",
+    "phone": "+1 (555) 345-6789",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "PHARMACIST",
+    "status": "ACTIVE",
+    "_id": "use_1790431860059_jh5l5",
+    "createdAt": "2026-09-26T14:11:00.059Z",
+    "updatedAt": "2026-09-26T14:11:00.059Z"
+  },
+  {
+    "name": "Dr. Elena Rostova, MD",
+    "email": "doctor@demo.com",
+    "phone": "+1 (555) 456-7890",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "DOCTOR",
+    "status": "ACTIVE",
+    "_id": "use_1790431860060_09xmz",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  },
+  {
+    "name": "Robert Davis (Clinic Admin)",
+    "email": "hospital@demo.com",
+    "phone": "+1 (555) 567-8901",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "HOSPITAL_ADMIN",
+    "status": "ACTIVE",
+    "_id": "use_1790431860060_9eic5",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  },
+  {
+    "name": "System Administrator",
+    "email": "admin@demo.com",
+    "phone": "+1 (555) 000-1122",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "_id": "use_1790431860060_onvim",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  },
+  {
+    "name": "David Kim, RPh (Pending License)",
+    "email": "pending-pharmacist@demo.com",
+    "phone": "+1 (555) 345-1111",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "PHARMACIST",
+    "status": "ACTIVE",
+    "_id": "use_1790431860061_5ws6g",
+    "createdAt": "2026-09-26T14:11:00.061Z",
+    "updatedAt": "2026-09-26T14:11:00.061Z"
+  },
+  {
+    "name": "Alex Rivera (Rejected License)",
+    "email": "rejected-pharmacist@demo.com",
+    "phone": "+1 (555) 345-2222",
+    "password": "$2b$10$NkLWoi2Jd3izNchdrYzuWux9HyB7J43DP1E1Tk/Ri.wdTWai4lsPG",
+    "role": "PHARMACIST",
+    "status": "ACTIVE",
+    "_id": "use_1790431860061_fdwgi",
+    "createdAt": "2026-09-26T14:11:00.061Z",
+    "updatedAt": "2026-09-26T14:11:00.061Z"
+  },
+  {
+    "name": "shaik mohammad thousif",
+    "email": "shthousif474@gmail.com",
+    "phone": "8985070186",
+    "password": "$2b$10$zHhT69owLD5lJ5xXcCMnGe/ueDsCVm0AYWjTg4dKt3KE3QqeoRRPi",
+    "role": "USER",
+    "status": "ACTIVE",
+    "allergies": [],
+    "currentMedications": [],
+    "_id": "use_1790472904762_71h71",
+    "createdAt": "2026-09-27T01:35:04.762Z",
+    "updatedAt": "2026-09-27T01:35:04.762Z"
+  }
+]

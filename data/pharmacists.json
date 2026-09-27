@@ -1,0 +1,38 @@
+[
+  {
+    "userId": "use_1790431860059_jh5l5",
+    "registrationNumber": "RPH-99281-DEMO",
+    "qualification": "Doctor of Pharmacy (PharmD), Board Certified Pharmacotherapy Specialist",
+    "phone": "+1 (555) 345-6789",
+    "pharmacyId": "pha_1790431860060_6frai",
+    "availability": "Monday to Friday: 9am - 6pm",
+    "verificationStatus": "VERIFIED",
+    "_id": "pha_1790431860061_jwamp",
+    "createdAt": "2026-09-26T14:11:00.061Z",
+    "updatedAt": "2026-09-26T14:11:00.061Z"
+  },
+  {
+    "userId": "use_1790431860061_5ws6g",
+    "registrationNumber": "RPH-APPLY-8812",
+    "qualification": "Bachelor of Pharmacy (B.Pharm), Registered Candidate",
+    "phone": "+1 (555) 345-1111",
+    "pharmacyId": "pha_1790431860060_i5szg",
+    "availability": "Mon-Fri: 9am - 5pm",
+    "verificationStatus": "PENDING",
+    "_id": "pha_1790431860061_hfp4a",
+    "createdAt": "2026-09-26T14:11:00.061Z",
+    "updatedAt": "2026-09-26T14:11:00.061Z"
+  },
+  {
+    "userId": "use_1790431860061_fdwgi",
+    "registrationNumber": "RPH-DISPUTED-001",
+    "qualification": "Pharmacology Associate (Expired Accreditation)",
+    "phone": "+1 (555) 345-2222",
+    "availability": "Part-time",
+    "verificationStatus": "REJECTED",
+    "rejectionReason": "License credentials expired and failed state board audit verification.",
+    "_id": "pha_1790431860061_rfjwa",
+    "createdAt": "2026-09-26T14:11:00.061Z",
+    "updatedAt": "2026-09-26T14:11:00.061Z"
+  }
+]

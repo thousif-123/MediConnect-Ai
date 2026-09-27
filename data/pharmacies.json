@@ -1,0 +1,46 @@
+[
+  {
+    "name": "DEMO — Beacon Hill Community Pharmacy",
+    "address": "742 Evergreen Terrace, Medical Corridor",
+    "phone": "+1 (555) 888-2121",
+    "licenseNumber": "PH-CA-99214-DEMO",
+    "latitude": 37.7755,
+    "longitude": -122.418,
+    "verificationStatus": "VERIFIED",
+    "openingHours": "Mon-Sun: 8:00 AM – 10:00 PM",
+    "pharmacistId": "use_1790431860059_jh5l5",
+    "pharmacistName": "Dr. Marcus Vance, PharmD",
+    "pharmacistPhone": "+1 (555) 345-6789",
+    "_id": "pha_1790431860060_6frai",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  },
+  {
+    "name": "DEMO — St. Jude Care Rx",
+    "address": "1088 Mission St, Suite 200",
+    "phone": "+1 (555) 777-3434",
+    "licenseNumber": "PH-CA-88102-DEMO",
+    "latitude": 37.7812,
+    "longitude": -122.4105,
+    "verificationStatus": "VERIFIED",
+    "openingHours": "24/7 Emergency Counter Available",
+    "pharmacistName": "Dr. Chloe Lin, RPh",
+    "pharmacistPhone": "+1 (555) 777-3435",
+    "_id": "pha_1790431860060_doy2q",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  },
+  {
+    "name": "DEMO — Pacific Wellness Pharmacy",
+    "address": "350 Bay Street, Fishermans Wharf",
+    "phone": "+1 (555) 666-4545",
+    "licenseNumber": "PH-CA-77112-DEMO",
+    "latitude": 37.8055,
+    "longitude": -122.414,
+    "verificationStatus": "PENDING",
+    "openingHours": "Mon-Fri: 9:00 AM – 7:00 PM",
+    "_id": "pha_1790431860060_i5szg",
+    "createdAt": "2026-09-26T14:11:00.060Z",
+    "updatedAt": "2026-09-26T14:11:00.060Z"
+  }
+]

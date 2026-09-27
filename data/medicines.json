@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Amoxicillin 500mg Capsules",
+    "genericName": "Amoxicillin",
+    "brandName": "Amoxil (DEMO)",
+    "category": "Antibiotics",
+    "description": "Broad-spectrum penicillin antibiotic used for bacterial infections under medical guidance.",
+    "indication": "Bacterial pharyngitis, acute otitis media, lower respiratory tract infections",
+    "requiresPrescription": true,
+    "otcEligible": false,
+    "ageRestrictions": "Adults and children over 12 (pediatric suspensions require specialized dosing)",
+    "contraindications": [
+      "Penicillin allergy",
+      "Cephalosporin hypersensitivity",
+      "Infectious mononucleosis"
+    ],
+    "drugInteractions": [
+      "Methotrexate",
+      "Warfarin",
+      "Allopurinol"
+    ],
+    "warnings": [
+      "Complete entire 10-day course even if feeling better",
+      "Discontinue if severe skin rash or wheezing develops"
+    ],
+    "safetyInformation": "Must not be used if allergic to penicillin. Complete entire course as directed by your physician.",
+    "activeIngredient": "Amoxicillin Trihydrate 500mg",
+    "dosageForm": "Capsule",
+    "manufacturer": "Demo Health Pharma Ltd",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860062_qgqab",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  },
+  {
+    "name": "Atorvastatin 20mg Tablets",
+    "genericName": "Atorvastatin Calcium",
+    "brandName": "Lipitor (DEMO)",
+    "category": "Cardiovascular / Statins",
+    "description": "HMG-CoA reductase inhibitor used to lower LDL cholesterol and manage cardiovascular risk.",
+    "indication": "Hypercholesterolemia, dyslipidemia, primary prevention of cardiovascular events",
+    "requiresPrescription": true,
+    "otcEligible": false,
+    "ageRestrictions": "Adults 18+ only",
+    "contraindications": [
+      "Active liver disease",
+      "Unexplained persistent elevations in hepatic transaminases",
+      "Pregnancy/Lactation"
+    ],
+    "drugInteractions": [
+      "Cyclosporine",
+      "Clarithromycin",
+      "Grapefruit juice in large quantities"
+    ],
+    "warnings": [
+      "Report unexplained muscle pain, tenderness, or weakness promptly",
+      "Requires periodic baseline liver function tests"
+    ],
+    "safetyInformation": "Requires regular liver panel monitoring. Consult your physician regarding muscle pain or tenderness.",
+    "activeIngredient": "Atorvastatin Calcium 20mg",
+    "dosageForm": "Tablet",
+    "manufacturer": "Demo CardioCare Labs",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860063_kf0z0",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  },
+  {
+    "name": "Paracetamol / Acetaminophen 500mg",
+    "genericName": "Paracetamol",
+    "brandName": "Tylenol / Panadol (DEMO)",
+    "category": "Analgesics & Antipyretics (OTC)",
+    "description": "Common over-the-counter pain reliever and fever reducer.",
+    "indication": "Mild to moderate headache, muscular aches, sore throat, pyrexia (fever)",
+    "requiresPrescription": false,
+    "otcEligible": true,
+    "ageRestrictions": "Adults and children over 12 years (use pediatric suspension for younger children)",
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Acute active hepatitis",
+      "Known hypersensitivity to paracetamol"
+    ],
+    "drugInteractions": [
+      "Alcohol (increased hepatotoxicity risk)",
+      "Warfarin (with chronic high-dose use)"
+    ],
+    "warnings": [
+      "Do NOT exceed 4,000mg total in 24 hours across all sources",
+      "Verify other cough/cold products do not contain acetaminophen"
+    ],
+    "safetyInformation": "Do not exceed 4,000mg in 24 hours. Avoid concurrent use with other acetaminophen-containing medications.",
+    "activeIngredient": "Paracetamol 500mg",
+    "dosageForm": "Tablet",
+    "manufacturer": "Demo Wellness Consumer Healthcare",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860063_tzo2z",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  },
+  {
+    "name": "Cetirizine 10mg Allergy Relief",
+    "genericName": "Cetirizine Hydrochloride",
+    "brandName": "Zyrtec (DEMO)",
+    "category": "Antihistamines (OTC)",
+    "description": "Second-generation non-drowsy antihistamine for allergic rhinitis and hives.",
+    "indication": "Seasonal allergic rhinitis, perennial allergic rhinitis, chronic urticaria (hives)",
+    "requiresPrescription": false,
+    "otcEligible": true,
+    "ageRestrictions": "Adults and children 6 years and older",
+    "contraindications": [
+      "Severe renal impairment (CrCl < 10 mL/min)",
+      "Hypersensitivity to hydroxyzine"
+    ],
+    "drugInteractions": [
+      "CNS depressants",
+      "Alcohol (additive sedative effects in sensitive patients)"
+    ],
+    "warnings": [
+      "May cause mild drowsiness in sensitive individuals",
+      "Exercise caution when driving or operating machinery"
+    ],
+    "safetyInformation": "May cause mild drowsiness in sensitive individuals. Do not combine with alcohol.",
+    "activeIngredient": "Cetirizine Hydrochloride 10mg",
+    "dosageForm": "Tablet",
+    "manufacturer": "Demo Allergy Solutions",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860063_hn3yl",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  },
+  {
+    "name": "Metformin 500mg Extended Release",
+    "genericName": "Metformin Hydrochloride",
+    "brandName": "Glucophage XR (DEMO)",
+    "category": "Antidiabetic Agents",
+    "description": "Biguanide antihyperglycemic agent for managing type 2 diabetes.",
+    "indication": "Type 2 diabetes mellitus glycemic management",
+    "requiresPrescription": true,
+    "otcEligible": false,
+    "ageRestrictions": "Adults 18+ only",
+    "contraindications": [
+      "Severe renal dysfunction (eGFR < 30 mL/min)",
+      "Acute metabolic acidosis",
+      "Congestive heart failure requiring pharmacologic treatment"
+    ],
+    "drugInteractions": [
+      "Iodinated radiocontrast media",
+      "Cimetidine",
+      "Alcohol"
+    ],
+    "warnings": [
+      "Take with evening meal to minimize gastrointestinal discomfort",
+      "Suspend 48 hours prior to surgical procedures or radiological contrast tests"
+    ],
+    "safetyInformation": "Take with food to minimize GI side effects. Strict contraindication in severe renal impairment.",
+    "activeIngredient": "Metformin Hydrochloride 500mg",
+    "dosageForm": "Extended-Release Tablet",
+    "manufacturer": "Demo Diabetes Care Global",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860063_8e4t5",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  },
+  {
+    "name": "Salbutamol (Albuterol) Inhaler 100mcg",
+    "genericName": "Salbutamol Sulfate",
+    "brandName": "Ventolin HFA (DEMO)",
+    "category": "Respiratory / Bronchodilators",
+    "description": "Fast-acting bronchodilator for acute relief of asthma and bronchospasm.",
+    "indication": "Relief of bronchospasm in bronchial asthma and COPD, exercise-induced asthma prophylaxis",
+    "requiresPrescription": true,
+    "otcEligible": false,
+    "ageRestrictions": "Adults and pediatric patients 4 years and older",
+    "contraindications": [
+      "Known hypersensitivity to albuterol or propellant excipients"
+    ],
+    "drugInteractions": [
+      "Non-selective beta-blockers (e.g. propranolol)",
+      "Digoxin",
+      "Diuretics"
+    ],
+    "warnings": [
+      "Carry at all times for acute breathlessness",
+      "If relief requires increasing frequency of use, seek medical review immediately"
+    ],
+    "safetyInformation": "Carry at all times. If symptom relief requires increasing frequency of use, seek medical review immediately.",
+    "activeIngredient": "Salbutamol Sulfate 100mcg/actuation",
+    "dosageForm": "Metered Dose Inhaler",
+    "manufacturer": "Demo Pulmonary Therapeutics",
+    "status": "ACTIVE",
+    "active": true,
+    "_id": "med_1790431860063_uql9u",
+    "createdAt": "2026-09-26T14:11:00.063Z",
+    "updatedAt": "2026-09-26T14:11:00.063Z"
+  }
+]

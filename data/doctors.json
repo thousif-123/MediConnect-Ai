@@ -1,0 +1,79 @@
+[
+  {
+    "userId": "use_1790431860060_09xmz",
+    "name": "Dr. Elena Rostova, MD",
+    "qualification": "MD in Internal Medicine (Johns Hopkins), Fellowship in Preventative Care",
+    "registrationNumber": "MED-77192-DEMO",
+    "department": "Internal Medicine",
+    "hospitalId": "hos_1790431860062_gdpv6",
+    "hospitalName": "DEMO — City General Health Center",
+    "consultationFee": 75,
+    "availability": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "availableSlots": [
+      "09:00 AM",
+      "10:30 AM",
+      "02:00 PM",
+      "03:30 PM",
+      "04:45 PM"
+    ],
+    "verificationStatus": "VERIFIED",
+    "bio": "Dedicated internist with 12 years of experience specializing in preventive care and chronic illness monitoring.",
+    "_id": "doc_1790431860062_lq3an",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  },
+  {
+    "name": "Dr. Julian Morales, MD",
+    "qualification": "MD, FACC Cardiology Specialization (Stanford Medicine)",
+    "registrationNumber": "MED-88401-DEMO",
+    "department": "Cardiology",
+    "hospitalId": "hos_1790431860062_gdpv6",
+    "hospitalName": "DEMO — City General Health Center",
+    "consultationFee": 120,
+    "availability": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "availableSlots": [
+      "11:00 AM",
+      "01:30 PM",
+      "03:00 PM"
+    ],
+    "verificationStatus": "VERIFIED",
+    "bio": "Cardiologist focused on non-invasive diagnostics, arrhythmia management, and heart health rehabilitation.",
+    "_id": "doc_1790431860062_0gsx7",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  },
+  {
+    "name": "Dr. Aisha Patel, MBBS, MD",
+    "qualification": "Board Certified Dermatologist (Harvard Medical School)",
+    "registrationNumber": "MED-66302-DEMO",
+    "department": "Dermatology",
+    "hospitalId": "hos_1790431860062_tl3rr",
+    "hospitalName": "DEMO — St. Mary Comprehensive Medical Pavilion",
+    "consultationFee": 90,
+    "availability": [
+      "Tue",
+      "Wed",
+      "Sat"
+    ],
+    "availableSlots": [
+      "10:00 AM",
+      "11:15 AM",
+      "02:15 PM",
+      "04:00 PM"
+    ],
+    "verificationStatus": "VERIFIED",
+    "bio": "Specialist in acute dermatological presentations, eczema management, and patient-centered skin health.",
+    "_id": "doc_1790431860062_tibh2",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  }
+]

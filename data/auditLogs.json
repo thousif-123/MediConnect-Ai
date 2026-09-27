@@ -1,0 +1,90 @@
+[
+  {
+    "userId": "use_1790431860060_onvim",
+    "userName": "System Administrator",
+    "role": "ADMIN",
+    "action": "SYSTEM_BOOTSTRAP",
+    "resource": "DATABASE",
+    "details": {
+      "initialEntitiesSeeded": true
+    },
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790431860065_6mju7",
+    "createdAt": "2026-09-26T14:11:00.065Z",
+    "updatedAt": "2026-09-26T14:11:00.065Z"
+  },
+  {
+    "userId": "ANONYMOUS",
+    "userName": "Anonymous User",
+    "role": "PUBLIC",
+    "action": "USER_LOGIN",
+    "resource": "USER",
+    "resourceId": "use_1790431860058_scuxg",
+    "details": {
+      "role": "USER",
+      "email": "patient@demo.com"
+    },
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790471592689_7epy9",
+    "createdAt": "2026-09-27T01:13:12.689Z",
+    "updatedAt": "2026-09-27T01:13:12.689Z"
+  },
+  {
+    "userId": "use_1790431860058_scuxg",
+    "userName": "Sarah Connor (Patient)",
+    "role": "USER",
+    "action": "BOOK_APPOINTMENT",
+    "resource": "APPOINTMENT",
+    "resourceId": "app_1790471616110_k56q9",
+    "details": {
+      "appointmentNumber": "APT-56506",
+      "hospitalId": "hos_1790431860062_tl3rr",
+      "doctorId": "doc_1790431860062_tibh2",
+      "date": "2026-10-02"
+    },
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790471616111_taqti",
+    "createdAt": "2026-09-27T01:13:36.111Z",
+    "updatedAt": "2026-09-27T01:13:36.111Z"
+  },
+  {
+    "userId": "use_1790431860058_scuxg",
+    "userName": "Sarah Connor (Patient)",
+    "role": "USER",
+    "action": "USER_LOGOUT",
+    "resource": "USER",
+    "resourceId": "use_1790431860058_scuxg",
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790471770572_bp6dn",
+    "createdAt": "2026-09-27T01:16:10.572Z",
+    "updatedAt": "2026-09-27T01:16:10.572Z"
+  },
+  {
+    "userId": "ANONYMOUS",
+    "userName": "Anonymous User",
+    "role": "PUBLIC",
+    "action": "USER_REGISTER",
+    "resource": "USER",
+    "resourceId": "use_1790472904762_71h71",
+    "details": {
+      "role": "USER",
+      "email": "shthousif474@gmail.com"
+    },
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790472904778_qjb56",
+    "createdAt": "2026-09-27T01:35:04.778Z",
+    "updatedAt": "2026-09-27T01:35:04.778Z"
+  },
+  {
+    "userId": "use_1790472904762_71h71",
+    "userName": "shaik mohammad thousif",
+    "role": "USER",
+    "action": "USER_LOGOUT",
+    "resource": "USER",
+    "resourceId": "use_1790472904762_71h71",
+    "ipAddress": "127.0.0.1",
+    "_id": "aud_1790476814325_s2o66",
+    "createdAt": "2026-09-27T02:40:14.325Z",
+    "updatedAt": "2026-09-27T02:40:14.325Z"
+  }
+]

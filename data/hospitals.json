@@ -1,0 +1,40 @@
+[
+  {
+    "name": "DEMO — City General Health Center",
+    "address": "1001 Potrero Ave, Central District",
+    "phone": "+1 (555) 911-0000",
+    "emergencyPhone": "+1 (555) 911-9999",
+    "latitude": 37.7558,
+    "longitude": -122.4045,
+    "departments": [
+      "Emergency Medicine",
+      "Cardiology",
+      "Internal Medicine",
+      "Pediatrics",
+      "Orthopedics"
+    ],
+    "verificationStatus": "VERIFIED",
+    "_id": "hos_1790431860062_gdpv6",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  },
+  {
+    "name": "DEMO — St. Mary Comprehensive Medical Pavilion",
+    "address": "450 Stanyan Street, Golden Gate Parkside",
+    "phone": "+1 (555) 922-1111",
+    "emergencyPhone": "+1 (555) 922-2222",
+    "latitude": 37.7711,
+    "longitude": -122.4532,
+    "departments": [
+      "General Practice",
+      "Neurology",
+      "Dermatology",
+      "Pulmonology",
+      "ENT"
+    ],
+    "verificationStatus": "VERIFIED",
+    "_id": "hos_1790431860062_tl3rr",
+    "createdAt": "2026-09-26T14:11:00.062Z",
+    "updatedAt": "2026-09-26T14:11:00.062Z"
+  }
+]
