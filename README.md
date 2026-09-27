@@ -1,90 +1,184 @@
-# MediConnect AI
+<div align="center">
 
-> **"Your Health. Connected."**
-> A production-structured college healthcare marketplace, prescription vault, and triage platform.
+# 🏥 MediConnect AI
 
----
+### *Your Health. Connected.*
 
-## ⚠️ Important Healthcare Safety Disclaimer
-* MediConnect AI is an **educational and academic prototype**.
-* It is **NOT** a certified medical diagnostic system or prescribing tool.
-* Healthcare professional profiles and dispensary data are clearly marked **DEMO** entries for simulation.
-* In life-threatening emergencies, users must call **911** or contact local emergency services immediately.
+[![React](https://img.shields.io/badge/React-19.0-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.21-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![Gemini AI](https://img.shields.io/badge/Google_Gemini-2.5_Flash-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
----
+A modern, production-structured healthcare marketplace, AI-powered triage system, prescription vault, and clinical appointment management platform.
 
-## Key Features
+[Features](#-key-features) • [Tech Stack](#-tech-stack) • [Architecture](#-system-architecture) • [Demo Accounts](#-demo-accounts--test-credentials) • [Quick Start](#-quick-start) • [API Routes](#-api-endpoints)
 
-1. **Deterministic Red-Flag Filter & 5-Tier AI Triage**:
-   - Immediate interception of acute cardiac, stroke (FAST protocol), respiratory distress, severe hemorrhage, and anaphylaxis signs.
-   - Structured AI triage via `@google/genai` (Gemini 2.5 Flash on server-side only):
-     - `EMERGENCY`
-     - `URGENT`
-     - `DOCTOR_CONSULTATION`
-     - `PHARMACIST_GUIDANCE`
-     - `GENERAL_SELF_CARE`
-   - AI outputs symptom summaries, possible explanations, precautions, and follow-up questions without generating unauthorized prescriptions.
-
-2. **Verified Pharmacist Network & Medicine Ordering**:
-   - Geolocation-based discovery of nearby licensed pharmacies and open hours.
-   - "Possible Symptom Relief Options" queried directly from the verified database (never hallucinated by the model).
-   - "Reserve for Pickup" flow with counter payment.
-   - Prescription-only items require an attached prescription document before order submission.
-
-3. **Private Prescription Vault & Consent Control**:
-   - Prescriptions stored in isolated backend object storage (`/storage/prescriptions/`).
-   - Timed, revocable sharing consents (`Consent` records) with explicit "Allow" and "Cancel" confirmations.
-   - Strict authorization middleware preventing unauthorized file access.
-
-4. **Hospital & Doctor Appointment System**:
-   - Clinical department filtering (Cardiology, Dermatology, Internal Medicine, etc.).
-   - Interactive consultation slot booking and status tracking.
-
-5. **Multi-Role RBAC & Status Guarding**:
-   - Five distinct roles: `USER`, `PHARMACIST`, `DOCTOR`, `HOSPITAL_ADMIN`, `ADMIN`.
-   - Distinct pharmacist verification states: `VERIFIED`, `PENDING`, and `REJECTED`.
+</div>
 
 ---
 
-## Demo Accounts & Test Credentials
+> [!WARNING]
+> ### ⚠️ Healthcare Safety Disclaimer
+> * **MediConnect AI** is an **educational & academic prototype** designed for system architecture demonstration.
+> * It is **NOT** a certified medical diagnostic system, clinical decision tool, or prescribing engine.
+> * All healthcare provider profiles, pharmacy inventories, and medical records are simulated **DEMO** entries.
+> * **In medical emergencies**, users must immediately call **911** or contact local emergency services.
 
-Use the **"Demo Roles Switcher"** in the top navigation bar or log in directly:
+---
 
-| Role | Email | Password | Status / Behavior |
+## 🌟 Overview
+
+**MediConnect AI** bridges the gap between patients, licensed pharmacies, medical practitioners, and hospital administrators into a unified, secure healthcare ecosystem. By pairing **deterministic red-flag medical safety checks** with **Google Gemini 2.5 Flash AI triage**, the platform ensures urgent care needs are prioritized immediately while giving users access to verified local medicine inventories and doctor consultations.
+
+---
+
+## ✨ Key Features
+
+### 1. 🚨 Deterministic Red-Flag Interception & 5-Tier AI Triage
+* **Safety First**: Instant client & server-side interception of acute symptoms:
+  * 🫀 **Cardiac Distress** (Severe chest pain, left arm numbness)
+  * 🧠 **Stroke Signs** (F.A.S.T. protocol - facial drooping, arm weakness, speech slurring)
+  * 🫁 **Acute Respiratory Distress** & Severe Hemorrhage
+  * 🐝 **Anaphylaxis** & Severe Allergic Shock
+* **Structured 5-Tier Categorization**:
+  * 🔴 `EMERGENCY` &nbsp;|&nbsp; 🟠 `URGENT` &nbsp;|&nbsp; 🟡 `DOCTOR_CONSULTATION` &nbsp;|&nbsp; 🟢 `PHARMACIST_GUIDANCE` &nbsp;|&nbsp; 🔵 `GENERAL_SELF_CARE`
+* **Non-Prescribing Guardrails**: Gemini AI output is strictly bound to symptom summaries, precautionary guidance, and follow-up care without hallucinating drug prescriptions.
+
+### 2. 💊 Verified Pharmacist Network & Medicine Marketplace
+* **Interactive Pharmacy Finder**: Geolocation-based map search (powered by Leaflet) displaying active licensed dispensaries.
+* **Database-Grounded Relief Options**: OTC recommendations queried directly from verified pharmacy stocks (never generated by AI).
+* **Reserve for Pickup & RX Verification**: Reserve medications online for counter payment; automated checks require prescription upload for RX-only drugs.
+
+### 3. 🔐 Timed Prescription Vault & Revocable Sharing
+* **Isolated Object Storage**: Prescriptions stored securely in `/storage/prescriptions/`.
+* **Granular Consent Control**: Generate timed, revocable access tokens for specific doctors or pharmacists.
+* **Revocation Engine**: Instantly revoke doctor or pharmacy access permissions at any time.
+
+### 4. 🩺 Hospital & Doctor Appointment System
+* **Department Filtering**: Browse specialists across Cardiology, Dermatology, Pediatrics, Neurology, and Internal Medicine.
+* **Interactive Slot Booking**: Real-time consultation scheduling with booking state management (`PENDING`, `CONFIRMED`, `COMPLETED`, `CANCELLED`).
+
+### 5. 🛡️ Multi-Role RBAC (Role-Based Access Control)
+* **5 Distinct User Roles**: `USER` (Patient), `PHARMACIST`, `DOCTOR`, `HOSPITAL_ADMIN`, `ADMIN`.
+* **Pharmacist Verification Pipeline**: Three-tier status guarding (`PENDING` ➔ `VERIFIED` or `REJECTED`) managed by System Admins.
+
+---
+
+## ⚡ Tech Stack
+
+| Domain | Technologies |
+|---|---|
+| **Frontend** | React 19, TypeScript, Tailwind CSS v4, React Router 7, Lucide Icons, Leaflet Maps |
+| **Animations** | Framer Motion, GSAP, Three.js |
+| **Backend** | Node.js, Express.js, TSX, Cookie-Parser, Helmet (Security Headers), Multer (FileUploads) |
+| **AI Integration** | `@google/genai` (Gemini 2.5 Flash - Server-Side Execution Only) |
+| **Authentication** | JSON Web Tokens (JWT), HTTP-Only Cookies, bcryptjs Password Hashing |
+
+---
+
+## 🏗️ System Architecture
+
+```
+                       ┌───────────────────────────────┐
+                       │     React 19 Frontend SPA     │
+                       │  (Tailwind v4, Leaflet, Maps) │
+                       └───────────────┬───────────────┘
+                                       │ HTTP / REST APIs
+                                       ▼
+                       ┌───────────────────────────────┐
+                       │      Express 4 Node Server    │
+                       │  (JWT Auth, RBAC Middleware)  │
+                       └───────┬───────────────┬───────┘
+                               │               │
+      ┌────────────────────────┘               └────────────────────────┐
+      ▼                                                                 ▼
+┌──────────────────────────────┐                       ┌──────────────────────────────┐
+│  Google Gemini 2.5 Flash AI  │                       │   Local Storage & DB Engine  │
+│  (Symptom Triage Engine)     │                       │ (Prescriptions & JSON Store) │
+└──────────────────────────────┘                       └──────────────────────────────┘
+```
+
+---
+
+## 🔑 Demo Accounts & Test Credentials
+
+Easily switch roles using the **"Demo Roles Switcher"** in the top navigation bar or log in with the credentials below:
+
+| Role | Email | Password | Access & Dashboard Capabilities |
 |---|---|---|---|
-| **Patient** | `patient@demo.com` | `Password123!` | Standard patient dashboard, triage, orders |
-| **Verified Pharmacist** | `pharmacist@demo.com` | `Password123!` | Accesses Pharmacist Dashboard, audits orders |
-| **Pending Pharmacist** | `pending-pharmacist@demo.com` | `Password123!` | Displays "Awaiting verification" screen |
-| **Rejected Pharmacist** | `rejected-pharmacist@demo.com` | `Password123!` | Displays "Verification not approved" screen |
-| **Doctor** | `doctor@demo.com` | `Password123!` | Accesses Doctor consultation dashboard |
-| **Hospital Admin** | `hospital@demo.com` | `Password123!` | Hospital department and staff management |
-| **System Admin** | `admin@demo.com` | `Password123!` | Verifies licenses, manages accounts, audits |
+| 👤 **Patient** | `patient@demo.com` | `Password123!` | AI Triage, Medicine Search, Prescription Vault, Appointments |
+| 💊 **Verified Pharmacist** | `pharmacist@demo.com` | `Password123!` | Pharmacy Dashboard, Dispense Orders, Stock Audit |
+| ⏳ **Pending Pharmacist** | `pending-pharmacist@demo.com` | `Password123!` | Verification Pending screen simulation |
+| ❌ **Rejected Pharmacist** | `rejected-pharmacist@demo.com` | `Password123!` | License Rejected alert screen |
+| 🩺 **Doctor** | `doctor@demo.com` | `Password123!` | Doctor Portal, Patient Consents, Consultation Queue |
+| 🏥 **Hospital Admin** | `hospital@demo.com` | `Password123!` | Department Management, Staff Roster, Facility Schedules |
+| ⚡ **System Admin** | `admin@demo.com` | `Password123!` | Verify Licenses, User Management, Security Audit Logs |
 
-*Note on Stale JWTs: If an account's role is updated directly in the database, the user must log out and log in again to acquire a refreshed JWT containing the new role claim.*
-
----
-
-## Environment Variables
-Defined in `.env.example`:
-- `GEMINI_API_KEY`: Server-side API key for Google GenAI triage.
-- `JWT_SECRET`: Secret key for session authentication.
-- `PORT`: Server port (default `3000`).
+> [!TIP]
+> **JWT Refresh Note**: If an account's role is updated in the backend database, log out and log back in to refresh the JWT claims.
 
 ---
 
-## Running the Application
+## 🚀 Quick Start
 
+### Prerequisites
+* **Node.js**: `v18.0.0` or higher
+* **npm**: `v9.0.0` or higher (or `bun` / `yarn`)
+
+### 1. Clone & Install
 ```bash
-# Install dependencies
+git clone https://github.com/thousif-123/MediConnect-Ai.git
+cd mediconnect-ai
 npm install
+```
 
-# Start full-stack development server (Express backend + Vite frontend)
+### 2. Configure Environment Variables
+Create a `.env` file in the root directory (or copy `.env.example`):
+```bash
+cp .env.example .env
+```
+Fill in your configuration:
+```env
+GEMINI_API_KEY=your_google_gemini_api_key_here
+JWT_SECRET=your_super_secret_jwt_key_here
+PORT=3000
+```
+
+### 3. Launch Development Server
+```bash
 npm run dev
+```
+Open your browser and navigate to `http://localhost:3000`.
 
-# Run linting check
-npm run lint
-
-# Build for production
+### 4. Build for Production
+```bash
 npm run build
 npm start
 ```
+
+---
+
+## 📡 API Endpoints
+
+| Category | Endpoint Prefix | Key Capabilities |
+|---|---|---|
+| 🔑 **Auth** | `/api/auth` | User Register, Login, Logout, Session Verification |
+| 🤖 **AI Triage** | `/api/ai` | Gemini 2.5 Flash Triage, Red-Flag Interception |
+| 📁 **Prescriptions** | `/api/prescriptions` | Upload RX, Storage Retrieval, Revocable Consents |
+| 💊 **Pharmacy** | `/api/pharmacies` | Nearby Dispensaries, Inventory Search |
+| 🛒 **Orders** | `/api/orders` | Medication Pickup Reservations & Orders |
+| 🩺 **Appointments**| `/api/appointments` | Doctor Slot Scheduling & Status Updates |
+| 🛡️ **Admin** | `/api/admin` | Pharmacist License Verification, System Audits |
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for safer, connected healthcare.</sub>
+</div>

@@ -47,12 +47,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return res.data.user;
     } catch {
       const googleUser: UserProfile = {
-        id: 'user-google-1',
+        _id: 'user-google-1',
         name: 'Alex Johnson',
         email: 'alex.johnson@gmail.com',
         role: 'USER',
         phone: '+1 (555) 234-5678',
-        isVerified: true,
+        verificationStatus: 'VERIFIED',
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
       };
       setUser(googleUser);
       return googleUser;
