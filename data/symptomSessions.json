@@ -1,0 +1,51 @@
+[
+  {
+    "userId": "ANONYMOUS",
+    "symptoms": "high fever, cold, stomach ache",
+    "duration": "Less than 24 hours",
+    "severity": "4",
+    "report": {
+      "triageLevel": "PHARMACIST_GUIDANCE",
+      "urgency": "routine",
+      "symptomSummary": "Guidance for described symptoms: \"high fever, cold, stomach ache\"",
+      "summary": "Guidance for described symptoms: \"high fever, cold, stomach ache\"",
+      "possibleExplanations": [
+        "These symptoms can occur with several conditions, including common seasonal viral syndromes",
+        "Upper respiratory tract irritation or localized inflammatory response",
+        "I cannot confirm a diagnosis from symptoms alone; physical clinical evaluation is advised if symptoms persist."
+      ],
+      "redFlags": [
+        "Persistent high fever above 103°F (39.4°C) unresponsive to standard measures",
+        "Severe shortness of breath, stridor, or difficulty swallowing fluids",
+        "Stiff neck accompanied by confusion or photophobia"
+      ],
+      "precautions": [
+        "Hydrate continuously with room-temperature water or oral electrolytes.",
+        "Allow adequate rest to support physiological immune recovery.",
+        "Avoid tobacco smoke, alcohol, and unprescribed medication mixing."
+      ],
+      "generalGuidance": [
+        "Hydrate continuously with room-temperature water or oral electrolytes.",
+        "Allow adequate rest to support physiological immune recovery."
+      ],
+      "followUpQuestions": [
+        "Are symptoms getting progressively more severe over the past 24 hours?",
+        "Do you have any pre-existing chronic illnesses or known drug allergies?"
+      ],
+      "medicineCategorySuggestions": [
+        "Analgesics & Antipyretics (OTC)"
+      ],
+      "recommendedNextSteps": [
+        "Discuss potential over-the-counter relief options with your verified community pharmacist",
+        "Schedule a clinic consultation if symptoms do not improve within 48 to 72 hours"
+      ],
+      "pharmacistRecommended": true,
+      "doctorRecommended": false,
+      "emergencyCareRecommended": false,
+      "disclaimer": "AI Health Assistant provides educational health information and preliminary triage only. It does not replace a Registered Medical Practitioner or Pharmacist. I cannot confirm a diagnosis from symptoms alone."
+    },
+    "_id": "sym_1790557676561_4z7qr",
+    "createdAt": "2026-09-28T01:07:56.561Z",
+    "updatedAt": "2026-09-28T01:07:56.561Z"
+  }
+]
